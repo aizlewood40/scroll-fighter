@@ -1,0 +1,43 @@
+#hud {
+    background-color: black;
+    height: 80px;
+    width: 1024px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#player1Health {
+    background-color: white;
+    height: 80px;
+    width: 500px;
+}
+
+#player2Health {
+    background-color: white;
+    height: 80px;
+    width: 500px;
+}
+
+#gamebox {
+    border: 1px solid black;
+    width: 1024px;
+    height: 656px;
+}
+
+#player2AdjustableHealth {
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+}
+
+#player1AdjustableHealth {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+#roundEndText {
+    color: white;
+    position: absolute;
+}
